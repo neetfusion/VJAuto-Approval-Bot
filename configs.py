@@ -9,7 +9,7 @@ class Config:
     API_ID = int(getenv("API_ID", "27846034"))
     API_HASH = getenv("API_HASH", "980caee71c20f6babaf86d985f5af9e5")
     BOT_TOKEN = getenv("BOT_TOKEN", "8312957393:AAH1-aotfhS7y0Qg07K0Qn3AhxgX7cr9A48")
-    # Your Force Subscribe Channel Id Below 
+   FSUB = getenv("FSUB", "NEET_Fusion")
     CHID = int(getenv("CHID", "-1002220587356")) # Make Bot Admin In This Channel
     # Admin Or Owner Id Below
     SUDO = list(map(int, getenv("SUDO", "1320989352").split()))
